@@ -18,3 +18,7 @@ insert_final_newline = true
 indent_size = 4
 
 ```
+
+## Different Ways to Set Attributes in ActiveRecord
+
+[http://www.davidverhasselt.com/set-attributes-in-activerecord](http://www.davidverhasselt.com/set-attributes-in-activerecord/)
