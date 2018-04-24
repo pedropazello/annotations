@@ -22,3 +22,9 @@ indent_size = 4
 ## Different Ways to Set Attributes in ActiveRecord
 
 [http://www.davidverhasselt.com/set-attributes-in-activerecord](http://www.davidverhasselt.com/set-attributes-in-activerecord/)
+
+## Short lambda Syntax from Ruby 1.9
+```
+twice = -> (x) { 2 * x }
+twice.call(5) # => 10
+```
