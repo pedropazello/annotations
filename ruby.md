@@ -28,3 +28,9 @@ indent_size = 4
 twice = -> (x) { 2 * x }
 twice.call(5) # => 10
 ```
+
+## Remove file from carrierwave
+```
+# Object is the activeRecord object and remove_*uploader* is the name of column used by uploader
+object.update(remove_uploader: true)
+```
