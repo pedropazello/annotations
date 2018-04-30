@@ -34,3 +34,7 @@ twice.call(5) # => 10
 # Object is the activeRecord object and remove_*uploader* is the name of column used by uploader
 object.update(remove_uploader: true)
 ```
+
+## jquery-ujs events list
+
+[https://github.com/rails/jquery-ujs/wiki/ajax#custom-events-fired-during-data-remote-requests](https://github.com/rails/jquery-ujs/wiki/ajax#custom-events-fired-during-data-remote-requests)
