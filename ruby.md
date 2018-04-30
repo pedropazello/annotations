@@ -38,3 +38,6 @@ object.update(remove_uploader: true)
 ## jquery-ujs events list
 
 [https://github.com/rails/jquery-ujs/wiki/ajax#custom-events-fired-during-data-remote-requests](https://github.com/rails/jquery-ujs/wiki/ajax#custom-events-fired-during-data-remote-requests)
+
+## Carrierwave: Validate filesize
+[https://github.com/carrierwaveuploader/carrierwave/wiki/How-to%3A-Validate-image-file-size](https://github.com/carrierwaveuploader/carrierwave/wiki/How-to%3A-Validate-image-file-size)
