@@ -41,3 +41,17 @@ object.update(remove_uploader: true)
 
 ## Carrierwave: Validate filesize
 [https://github.com/carrierwaveuploader/carrierwave/wiki/How-to%3A-Validate-image-file-size](https://github.com/carrierwaveuploader/carrierwave/wiki/How-to%3A-Validate-image-file-size)
+
+## Increase/disable timeout time on activerecord-safer_migrations gem
+```
+class LockTest < ActiveRecord::Migration
+  set_lock_timeout(250)
+  set_statement_timeout(750)
+
+  def change
+    create_table :lock_test
+  end
+end
+
+To disable timeouts use disable_lock_timeout! and disable_statement_timeout!
+```
