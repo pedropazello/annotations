@@ -57,3 +57,6 @@ To disable timeouts use disable_lock_timeout! and disable_statement_timeout!
 ```
 ## Sidekiq testing options
 [https://github.com/mperham/sidekiq/wiki/Testing#setup](https://github.com/mperham/sidekiq/wiki/Testing#setup)
+
+## Check if Array have specific item
+`array.include?(item)`
