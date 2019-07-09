@@ -1,7 +1,7 @@
 # MongoDB
 
 ## Aggregation Framework
-### Lookup with project
+### $lookup with project
 
 ```
 {
@@ -32,7 +32,7 @@
 }
 ```
 
-### Check if Array field has one of the options of a array
+### $match if Array field has one of the options of a array
 ```
 {
   "product._categories": {
@@ -41,7 +41,7 @@
 }
 ```
 
-### Searching by range
+### $match by range
 ```
 {
   $or: [
@@ -54,7 +54,7 @@
 }
 ```
 
-### Check if literal field have one of the items of a array
+### $match literal field have one of the items of a array
 ```
 {
   $expr: {
