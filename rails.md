@@ -8,3 +8,8 @@
 brands as array in params
 
 `check_box_tag('brands[]', 'Safety 1st', value, 'Safety 1st'), {})`
+
+## Javascript
+Rendering partial in js.erb file
+
+`$('#comments ul.comments').append("<%= escape_javascript render(:partial => 'comments/single', :locals => { :c => @comment }) %>");`
