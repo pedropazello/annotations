@@ -9,6 +9,9 @@ brands as array in params
 
 `check_box_tag('brands[]', 'Safety 1st', value, 'Safety 1st'), {})`
 
+## Select from belongs to relation
+`usp_image_form.collection_select :sku, @product.skus, :_id, :color, prompt: true`
+
 ## Javascript
 Rendering partial in js.erb file
 
