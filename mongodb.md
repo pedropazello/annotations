@@ -65,3 +65,13 @@
   }
 }
 ```
+
+### Match with and
+```
+{
+  $and: [
+    { "filters.name": { $eq: "colors" } },
+    { "filters.tags": { $in: ['black'] } }
+  ]
+}
+```
