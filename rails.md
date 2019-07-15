@@ -12,6 +12,11 @@ brands as array in params
 ## Select from belongs to relation
 `usp_image_form.collection_select :sku, @product.skus, :_id, :color, prompt: true`
 
+## Multiple select
+```
+= filter_form.select(:tags,
+  filter_form.object.tags.map {|tag| [tag, tag]}, { include_blank: true }, { class: "select2", multiple: true })
+```
 ## Javascript
 Rendering partial in js.erb file
 
