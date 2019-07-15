@@ -63,4 +63,5 @@ To disable timeouts use disable_lock_timeout! and disable_statement_timeout!
 
 ## Capistrano
 When capistrano ask for password when deploy command is running
+
 [https://stackoverflow.com/questions/3269578/capistrano-asks-for-password-when-deploying-despite-ssh-keys](https://stackoverflow.com/questions/3269578/capistrano-asks-for-password-when-deploying-despite-ssh-keys)
