@@ -15,7 +15,7 @@ brands as array in params
 ## Multiple select
 ```
 = filter_form.select(:tags,
-  filter_form.object.tags.map {|tag| [tag, tag]}, { include_blank: true }, { class: "select2", multiple: true })
+   filter_form.object.tags.map {|tag| [tag, tag]}, { include_hidden: false }, { class: "select2", multiple: true })
 ```
 ## Javascript
 Rendering partial in js.erb file
