@@ -75,3 +75,44 @@
   ]
 }
 ```
+### Converting object type in aggregation
+```
+ {
+        '$lookup': {
+            'from': 'catalog_sales_prices', 
+            'as': 'sales_prices', 
+            'let': {
+                'skuId': '$_id'
+            }, 
+            'pipeline': [
+                {
+                    '$project': {
+                        'value': 1, 
+                        '_sku': 1, 
+                        'table': 1
+                    }
+                }, {
+                    '$replaceRoot': {
+                        'newRoot': {
+                            '$mergeObjects': [
+                                '$$ROOT', {
+                                    'value': {
+                                        '$toDecimal': '$value'
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }, {
+                    '$match': {
+                        '$expr': {
+                            '$eq': [
+                                '$$skuId', '$_sku'
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+```
