@@ -65,3 +65,29 @@ To disable timeouts use disable_lock_timeout! and disable_statement_timeout!
 When capistrano ask for password when deploy command is running
 
 [https://stackoverflow.com/questions/3269578/capistrano-asks-for-password-when-deploying-despite-ssh-keys](https://stackoverflow.com/questions/3269578/capistrano-asks-for-password-when-deploying-despite-ssh-keys)
+
+## Clockwork gem
+Procfile (if using Dokku)
+```
+web: bundle exec puma -C config/puma.rb
+worker: bundle exec sidekiq -c 5 -v
+schedule: clockwork clock.rb
+```
+
+clock.rb
+```
+require 'clockwork'
+require 'active_support/time'
+require './config/boot'
+require './config/environment'
+
+module Clockwork
+  handler do |job|
+    puts "Running #{job}"
+  end
+
+  every(5.minute, 'invoices_mailers.send') do
+    `rake invoices_mailers:send`
+  end
+end
+```
