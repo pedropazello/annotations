@@ -91,3 +91,11 @@ module Clockwork
   end
 end
 ```
+
+## Upcase and Downcase
+```
+"hello James!".upcase      #=> "HELLO JAMES!"
+"hello James!".capitalize  #=> "Hello james!"
+"hello James!".titleize    #=> "Hello James!"
+string.downcase!           #=> "hello james!"
+```
