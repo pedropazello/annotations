@@ -132,3 +132,6 @@ render pdf: "print_externo", show_as_html: params[:as_html]
 
 ```
 
+## I18n
+### Attribute translation
+`t('activerecord.attributes.model.attribute')`
