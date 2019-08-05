@@ -99,3 +99,19 @@ end
 "hello James!".titleize    #=> "Hello James!"
 string.downcase!           #=> "hello james!"
 ```
+
+## Wicked PDF
+### Mac OSX low resolution problem
+in `config/initializers/wicked_pdf.rb`
+
+```
+if Rails.env.development?
+  WickedPdf.config[:lowquality] = true
+  # WickedPdf.config[:exe_path] = '/usr/local/bin/wkhtmltopdf'
+end
+```
+### Render PDF
+```
+render pdf: "print_externo", show_as_html: params[:as_html]
+```
+
