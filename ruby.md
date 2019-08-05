@@ -114,4 +114,21 @@ end
 ```
 render pdf: "print_externo", show_as_html: params[:as_html]
 ```
+### Template
+```
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+  <head>
+    <title>PDF</title>
+    <%#= stylesheet_link_tag 'application', media: 'all' %>
+    <%= wicked_pdf_stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" %>
+    <style>
+    </style>
+  </head>
+  <body>
+  </body>
+</html>
+
+```
 
