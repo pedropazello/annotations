@@ -135,3 +135,6 @@ render pdf: "print_externo", show_as_html: params[:as_html]
 ## I18n
 ### Attribute translation
 `t('activerecord.attributes.model.attribute')`
+
+## Find rows with multiple duplicate fields with Active Record, Rails & Postgres
+[https://stackoverflow.com/questions/21669202/find-rows-with-multiple-duplicate-fields-with-active-record-rails-postgres](https://stackoverflow.com/questions/21669202/find-rows-with-multiple-duplicate-fields-with-active-record-rails-postgres)
