@@ -17,6 +17,11 @@ brands as array in params
 = filter_form.select(:tags,
    filter_form.object.tags.map {|tag| [tag, tag]}, { include_hidden: false }, { class: "select2", multiple: true })
 ```
+
+## Nested Form
+### Getting object array
+https://stackoverflow.com/questions/18649027/how-to-get-the-index-of-children-in-a-nested-form
+
 ## Javascript
 Rendering partial in js.erb file
 
