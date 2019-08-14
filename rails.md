@@ -22,6 +22,9 @@ brands as array in params
 ### Getting object array
 https://stackoverflow.com/questions/18649027/how-to-get-the-index-of-children-in-a-nested-form
 
+## Redirect Back
+https://blog.bigbinary.com/2016/02/29/rails-5-improves-redirect_to_back-with-redirect-back.html
+
 ## Javascript
 Rendering partial in js.erb file
 
