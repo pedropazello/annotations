@@ -29,3 +29,7 @@ https://blog.bigbinary.com/2016/02/29/rails-5-improves-redirect_to_back-with-red
 Rendering partial in js.erb file
 
 `$('#comments ul.comments').append("<%= escape_javascript render(:partial => 'comments/single', :locals => { :c => @comment }) %>");`
+
+## Asset pipeline
+### Show all paths
+`Rails.application.config.assets.paths`
