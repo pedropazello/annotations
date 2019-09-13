@@ -33,3 +33,7 @@ Rendering partial in js.erb file
 ## Asset pipeline
 ### Show all paths
 `Rails.application.config.assets.paths`
+
+## Controllers
+### Actions as helpers
+`helper_method :current_user, :logged_in?`
