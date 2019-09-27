@@ -37,3 +37,6 @@ Rendering partial in js.erb file
 ## Controllers
 ### Actions as helpers
 `helper_method :current_user, :logged_in?`
+
+## Models
+`validates :email, format: { with: URI::MailTo::EMAIL_REGEXP } `
