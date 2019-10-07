@@ -116,3 +116,17 @@
         }
     }
 ```
+
+## Lookup with $arrayElemAt
+```
+/**
+ * specifications - The fields to
+ *   include or exclude.
+ */
+{
+  _channel: 1,
+  _sku: 1,
+  uri: 1,
+  sku: { $arrayElemAt: ["$sku", 0] }
+}
+```
