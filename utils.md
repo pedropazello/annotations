@@ -16,3 +16,5 @@ https://www.thegeekstuff.com/2010/07/logrotate-examples/
 
 ## Check disk usage Linux
 `ncdu`
+
+https://www.linux.com/tutorials/linux-101-check-disk-space-command/
