@@ -40,3 +40,6 @@ Rendering partial in js.erb file
 
 ## Models
 `validates :email, format: { with: URI::MailTo::EMAIL_REGEXP } `
+
+## Reseting counter cache
+https://yerb.net/blog/2014/03/13/three-easy-steps-to-using-counter-caches-in-rails/
