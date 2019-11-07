@@ -1,5 +1,9 @@
 # MongoDB
 
+## dump/restore
+`mongodump --db=pricepoint3_production --collection=where_to_buy --out=data_where_to_buy`
+`mongorestore --db sistrading5_stage --collection service_digital_where_to_buys data_where_to_buy/pricepoint3_production/where_to_buy.bson --drop`
+
 ## Aggregation Framework
 ### $lookup with project
 
