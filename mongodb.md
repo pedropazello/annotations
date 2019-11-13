@@ -1,5 +1,9 @@
 # MongoDB
 
+## running as daemon
+
+https://coderwall.com/p/bf1iqg/run-mongodb-as-a-daemon
+
 ## dump/restore
 `mongodump --db=pricepoint3_production --collection=where_to_buy --out=data_where_to_buy`
 
