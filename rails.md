@@ -43,3 +43,7 @@ Rendering partial in js.erb file
 
 ## Reseting counter cache
 https://yerb.net/blog/2014/03/13/three-easy-steps-to-using-counter-caches-in-rails/
+
+## select2 ajax
+https://www.prela.io/ajax-select2-with-rails
+
