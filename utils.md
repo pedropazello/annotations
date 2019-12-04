@@ -18,3 +18,6 @@ https://www.thegeekstuff.com/2010/07/logrotate-examples/
 `ncdu`
 
 https://www.linux.com/tutorials/linux-101-check-disk-space-command/
+
+## Counting files in linux/unix folder
+`ls -1 | wc -l`
