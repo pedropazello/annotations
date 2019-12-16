@@ -24,3 +24,6 @@ https://www.linux.com/tutorials/linux-101-check-disk-space-command/
 
 ## Renew letsencrypt certificate for old ubuntu versions using certbot
 `sudo /usr/local/bin/certbot-auto renew --nginx`
+
+## Certbot for Ubuntu 14
+`sudo /usr/local/bin/certbot-auto certonly  --nginx`
