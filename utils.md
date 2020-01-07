@@ -27,3 +27,6 @@ https://www.linux.com/tutorials/linux-101-check-disk-space-command/
 
 ## Certbot for Ubuntu 14
 `sudo /usr/local/bin/certbot-auto certonly  --nginx`
+
+## Configure local gem path
+`bundle config local.sistrading_store /Users/pedro/apps/sistrading_store`
