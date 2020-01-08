@@ -146,4 +146,6 @@ render pdf: "print_externo", show_as_html: params[:as_html]
 ## Exceptions with params
 [https://stackoverflow.com/questions/11636874/raise-custom-exception-with-arguments](https://stackoverflow.com/questions/11636874/raise-custom-exception-with-arguments)
 
+## Call method only if exists
+[https://stackoverflow.com/questions/15787610/call-method-only-if-it-exists/15787790](https://stackoverflow.com/questions/15787610/call-method-only-if-it-exists/15787790)
 
