@@ -142,3 +142,8 @@ render pdf: "print_externo", show_as_html: params[:as_html]
 ## Rails helpers
 ### Format number without currency
 `number_with_precision`
+
+## Exceptions with params
+[https://stackoverflow.com/questions/11636874/raise-custom-exception-with-arguments](https://stackoverflow.com/questions/11636874/raise-custom-exception-with-arguments)
+
+
