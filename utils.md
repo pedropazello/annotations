@@ -30,3 +30,8 @@ https://www.linux.com/tutorials/linux-101-check-disk-space-command/
 
 ## Configure local gem path
 `bundle config local.sistrading_store /Users/pedro/apps/sistrading_store`
+
+## Credit card BIN
+[https://gist.github.com/erikhenrique/5931368](https://gist.github.com/erikhenrique/5931368)
+
+[https://stackoverflow.com/questions/72768/how-do-you-detect-credit-card-type-based-on-number](https://stackoverflow.com/questions/72768/how-do-you-detect-credit-card-type-based-on-number)
